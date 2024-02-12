@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  -->
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"defer></script>
+  <!--  -->
+  <title>Allahspec Login Page</title>
+</head>
+<body>
+  <main>
+    <div class="section--container">
+      <h1 class="logo">
+        CODELAB AFRICA
+      </h1>
+      <section class="main--section">
+        <section class="login-form">
+          <h2 class="login-header">
+            Login
+          </h2>
+          <div class="socialmedia--icon">
+            <a href="https://web.facebook.com/lawal.nana.35" class="icon-facebook" >
+              <img src="./images/icon-facebook.svg" class="facebook">
+            </a>
+            <a href="https://twitter.com/allahspec" class="icon-twitter">
+              <img src="./images/icon-twitter.svg" class="twitter">
+            </a>
+          </div>
+          <p class="login-paragraph">
+            or use your account
+          </p>
+          <form id="myForm" name="myForm" action="#">
+            <div class="email">
+              <input type="email" class="email" placeholder="Email" name="email">
+              <p class="error"></p>
+            </div>
+            <div class="p-word">
+              <input type="password" class="password" placeholder="pwd (no, u.case, l.case and 8 x-ters)" name="password" pattern="(?=.*\d) (?=.*[a-z]).{8,}">
+              <p class="error"></p>
+            </div>
+            <div class="name">
+              <input type="text" class="name" placeholder="Names" name="name">
+              <p class="error"></p>
+            </div>
+            <div class="number">
+              <input type="tel" class="number" placeholder="Phone Number" name="number">
+              <p class="error"></p>
+            </div>
+          </form>
+          <p class="login-paragraph">
+            Forgot your password?
+          </p>
+          <button id="btn btnLogin">
+            LOG IN
+          </button>
+        </section>
+        <section class="form-description">
+          <h2 class="description-header">
+            HTML...CSS...JS...Login Form
+          </h2>
+          <p class="description-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laudantium facilis dolores soluta expedita, nisi ab vel facere quasi eum quibusdam nulla consequatur saepe commodi minus illo vitae earum officiis.
+          </p>
+        </section>
+      </section>
+      <p class="attribution">Coded by <a href="#">Allahspec</a></p>
+    </div>
+    <!-- <p class="attribution">Coded by <a href="#">Allahspec</a></p> -->
+  </main>
+  
+</body>
+</html>
